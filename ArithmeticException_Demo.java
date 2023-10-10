@@ -4,8 +4,8 @@ class ArithmeticException_Demo
     {
         try
         {
-            int num1=20, num2=0;
-            int answer = num1/num2;
+            int n1=20, n2=0;
+            int answer = n1/n2;
             System.out.println("Result= "+answer);
         }
         catch(ArithmeticException e) {
